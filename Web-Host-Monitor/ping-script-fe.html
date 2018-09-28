@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Host Status</title>
+    
+    <link rel="stylesheet" href="Style/Bootstrap-4/css/bootstrap.css">
+    <script src="../Style/Bootstrap-4/js/bootstrap.js"></script>
+    
+    <style>
+    
+    .card
+        {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        
+        
+    </style>
+
+</head>
+
+<body>
+
+
+   
+ <div class="card" style="width: 500px;">
+  <br>
+  <br>
+  <img style="margin: 0 auto;" src="Style/Image/QuantaDyn_logo_blue_low-res.png" alt="logo">
+  <br>
+  <br>
+  <h6 class="mx-auto"><u>Host Status Monitor</u></h6>
+  <br>
+  <form class="mx-auto" action="#" method='POST'>
+   <div class="form-group">
+    <label for="net_select">Network</label>
+    <select class="custom-select" name="net_select">
+    <option value="#" name="#" selected>--Select Network--</option>
+     <option value="192.168.115.">DAT</option>
+     <option value="192.168.120.">DIS</option>
+    </select>
+   </div>
+   <br>
+   <br>
+   <div class="form-group">
+    <label for="net_select_custom">Custom Network</label>
+    <input type="text" class="form-control" name="net_select_custom">
+   </div>
+   <div class="form-group">
+    <label for="port">Port</label>
+    <input type="text" class="form-control" name="port">
+   </div>
+   <br>
+   <div class="form-group">
+    <input class="btn btn-warning col-sm-3" type="submit" name="halt" value="Stop">
+    <input class="btn btn-danger col-sm-3" type="submit" name="reset_fields" value="Reset"> 
+    <input class="btn btn-success col-sm-3" type="submit" name="Submit" value="Scan"> 
+   </div>
+  </form>
+ <hr>
+ <div class="table-wrapper">
+  <table class="table-light table-hover table-bordered mx-auto">
+   <thead class="thead-light">
+    <tr>
+     <th>Host</th>
+     <th>Port</th>
+     <th>Status</th>
+    </tr>
+   </thead>
+   <tr>
+
+   </tr>
+  </table>
+ </div>
+</div>
+
+</body>
+
+</html>    
+

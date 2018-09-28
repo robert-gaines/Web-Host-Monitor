@@ -1,0 +1,28 @@
+         
+
+ body
+ {
+     background-color: darkgray;
+ }
+
+ .card
+ {
+     margin: 0 auto;
+     margin-top: 10px;
+     background-color: black;
+     width: 50%;
+ }
+
+ .logo
+ {
+
+     position: relative;
+     border-radius: 5px;
+ }
+
+ label
+ {
+     margin: 0 auto;
+     position: relative;
+     color: white;
+ }
